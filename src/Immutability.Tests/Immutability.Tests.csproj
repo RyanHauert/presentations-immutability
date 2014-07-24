@@ -54,6 +54,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\FunctionalListTests.cs" />
+    <Compile Include="Demo\SlowImmutableListTests.cs" />
     <Compile Include="Examples\FunctionalListTests.cs" />
     <Compile Include="Examples\SlowImmutableListTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
