@@ -44,9 +44,9 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="FunctionalList.cs" />
+    <Compile Include="Examples\FunctionalList.cs" />
+    <Compile Include="Examples\SlowImmutableList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SlowImmutableList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

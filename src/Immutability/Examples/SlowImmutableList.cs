@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Immutability
+namespace Immutability.Examples
 {
     public class SlowImmutableList<T> : IEnumerable<T>
     {

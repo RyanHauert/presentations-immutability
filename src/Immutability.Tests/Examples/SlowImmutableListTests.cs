@@ -1,7 +1,8 @@
-﻿using Shouldly;
+﻿using Immutability.Examples;
+using Shouldly;
 using Xunit;
 
-namespace Immutability.Tests
+namespace Immutability.Tests.Examples
 {
     public class SlowImmutableListTests
     {

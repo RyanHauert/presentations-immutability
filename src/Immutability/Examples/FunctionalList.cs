@@ -1,4 +1,4 @@
-﻿namespace Immutability
+﻿namespace Immutability.Examples
 {
     public class FunctionalList<T>
     {
