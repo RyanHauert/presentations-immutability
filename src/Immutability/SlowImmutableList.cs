@@ -17,6 +17,11 @@ namespace Immutability
             _inner = list;
         }
 
+        public int Count
+        {
+            get { return _inner.Count; }
+        }
+
         public SlowImmutableList<T> Add(T item)
         {
             var copy = _inner.ToList();
