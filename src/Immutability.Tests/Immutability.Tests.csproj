@@ -60,6 +60,7 @@
     <Compile Include="Demo\EventAggregatorTests.cs" />
     <Compile Include="Demo\FunctionalListTests.cs" />
     <Compile Include="Demo\SlowImmutableListTests.cs" />
+    <Compile Include="Examples\CacheTests.cs" />
     <Compile Include="Examples\EventAggregatorTests.cs" />
     <Compile Include="Examples\FunctionalListTests.cs" />
     <Compile Include="Examples\SlowImmutableListTests.cs" />
