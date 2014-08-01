@@ -15,7 +15,7 @@ namespace Immutability.Tests.Examples
             list.IsEmpty.ShouldBe(true);
 
             list2.IsEmpty.ShouldBe(false);
-            list2.Count.ShouldBe(1);
+            list2.Count().ShouldBe(1);
         }
 
         [Fact]
@@ -24,10 +24,10 @@ namespace Immutability.Tests.Examples
             var list = FunctionalList<int>.Empty.Add(1).Add(2);
             var list2 = list.Remove(2);
 
-            list.Count.ShouldBe(2);
+            list.Count().ShouldBe(2);
             list.Contains(2).ShouldBe(true);
 
-            list2.Count.ShouldBe(1);
+            list2.Count().ShouldBe(1);
             list2.Contains(2).ShouldBe(false);
         }
     }

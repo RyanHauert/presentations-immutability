@@ -20,17 +20,6 @@
             IsEmpty = false;
         }
 
-        public int Count
-        {
-            get
-            {
-                if (IsEmpty)
-                    return 0;
-
-                return 1 + Tail.Count;
-            }
-        }
-
         public FunctionalList<T> Add(T item)
         {
             return new FunctionalList<T>(item, this);
@@ -46,6 +35,14 @@
 
             // This tail recursion is not tail recursive.
             return Tail.Remove(item).Add(Head);
+        }
+
+        public int Count()
+        {
+            if (IsEmpty)
+                return 0;
+
+            return 1 + Tail.Count();
         }
 
         public bool Contains(T item)

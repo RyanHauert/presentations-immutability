@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FubuCore">
+      <HintPath>..\packages\FubuCore\lib\FubuCore.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Shouldly">
       <HintPath>..\packages\Shouldly\lib\net40\Shouldly.dll</HintPath>
@@ -54,8 +57,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\EventAggregatorTests.cs" />
     <Compile Include="Demo\FunctionalListTests.cs" />
     <Compile Include="Demo\SlowImmutableListTests.cs" />
+    <Compile Include="Examples\EventAggregatorTests.cs" />
     <Compile Include="Examples\FunctionalListTests.cs" />
     <Compile Include="Examples\SlowImmutableListTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

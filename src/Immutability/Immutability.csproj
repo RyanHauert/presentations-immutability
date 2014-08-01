@@ -44,8 +44,10 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Demo\EventAggregator.cs" />
     <Compile Include="Demo\FunctionalList.cs" />
     <Compile Include="Demo\SlowImmutableList.cs" />
+    <Compile Include="Examples\EventAggregator.cs" />
     <Compile Include="Examples\FunctionalList.cs" />
     <Compile Include="Examples\SlowImmutableList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
