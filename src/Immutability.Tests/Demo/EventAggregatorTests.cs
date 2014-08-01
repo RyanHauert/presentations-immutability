@@ -12,8 +12,8 @@ namespace Immutability.Tests.Demo
         [Fact]
         public void CanPublishEventsWhileAddingListeners()
         {
-            //var eventAggregator = new EventAggregator();
-            var eventAggregator = new MutableEventAggregator();
+            var eventAggregator = new EventAggregator();
+            //var eventAggregator = new MutableEventAggregator();
             var addTask = Task.Run(() =>
             {
                 for (int i = 0; i < 100; i++)
